@@ -38,6 +38,25 @@ public class CodeDoorFinder {
 
     public static void findDoor(CodeDoorWall wall) {
 
+        while (!wall.checkCodeWord()){
+
+            long steps = 1;
+
+            // moving right the correct number of times
+            for (int i = 0; i < steps; i++){
+                wall.stepRight();
+                wall.checkCodeWord();
+            }
+
+            steps = steps * 2;
+
+            // moving left the correct number of times
+            for (int i = 0; i < steps; i++){
+                wall.stepRight();
+                wall.checkCodeWord;
+            }
+        }
+
     }
 
     public static boolean findDoor(CodeDoorWall wall) {
