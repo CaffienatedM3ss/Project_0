@@ -53,7 +53,7 @@ public class CodeDoorFinder {
             // moving left the correct number of times
             for (int i = 0; i < steps; i++){
                 wall.stepRight();
-                wall.checkCodeWord;
+                wall.checkCodeWord();
             }
         }
 
