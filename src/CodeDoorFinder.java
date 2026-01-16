@@ -35,7 +35,7 @@ public class CodeDoorFinder {
     }
 
     //constructor
-    public CodeDoorWall(long workingDoor) {
+    public CodeDoorFinder(long workingDoor) {
         this.workingDoor = workingDoor;
         this.position = 0;
         this.loop = 0;
