@@ -55,12 +55,12 @@ public class CodeDoorFinder {
 
             // moving left the correct number of times
             for (int i = 0; i < steps; i++) {
-                wall.stepLeft();t();
+                wall.stepLeft();
                 if (wall.checkCodeWord()) {
                     return;
                 }
         }
 
     }
-}
+    }}
 
